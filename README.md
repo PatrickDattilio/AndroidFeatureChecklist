@@ -46,4 +46,13 @@ A checklist to help breakdown feature/screen work into workable tasks in an MVP 
     * Network connectivity
     * External configuration files
     * Localization
+* Service layer/Interactor
+  * What type of endpoint is this? REST/GraphQl/Protocall Buffers/websocket
+  * How is the request formatted?
+  * How is the response formatted?
+  * Is this a single request/response or a stream of responses?
+  * What sort of data transformations need to be done to map the response data to the required 
+  * Are any special libraries required to access this endpoint?
+  * Is authorization required, if so how is it obtained?
+
 
